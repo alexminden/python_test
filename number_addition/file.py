@@ -1,3 +1,13 @@
+# def test(num):
+#     test = []
+#     value = int(num/2)+1
+#     for i in range(value):
+#         if i != 0:
+#             test.append(int(f"{i}{num-i}"))
+#             test.append(int(f"{num-i}{i}"))
+#     res = sorted([x*10 for x in test]) if len([x for x in test if x % num == 0]) == 0 else sorted([x for x in test if x % num == 0])
+#     return res[0]
+
 def test(num):
     res = -1
     i = 2
